@@ -59,8 +59,21 @@
 
 //important concept
 
-function sum(a,b){
-    return a+b
-}
+// function sum(a,b){
+//     return a+b
+// }
 
-console.log(sum(3,4,5))
+// console.log(sum(3,4,5))
+
+//this is the sum fun that can take any number of arguments
+// function sum(){
+//     console.log(arguments)
+//     let sum=0
+//     for (i=0;i<arguments.length;i++){
+//         sum+=arguments[i]
+//     }
+//     return sum
+// }
+
+// console.log(sum(3,5,6))
+// console.log(sum(9,6))
