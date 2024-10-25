@@ -1,0 +1,64 @@
+.headingContainer{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+h2{
+  color: red;
+ 
+}
+span{
+  color: brown;
+}
+.navbar{
+  border: 2px solid black;
+  height: 30px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  background-color: white;
+}
+a{
+  color: red;
+  font-size: 23px;
+  text-decoration: none;
+  border: blue;
+}
+#pets{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.card{
+  
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px black;
+
+}
+.card:hover{
+  box-shadow: 2px 2px 18px black;
+}
+img{
+  width: 100%;
+  border-radius: 25px;
+
+}
+
+h4{
+  text-align: right;
+  color: blue;
+}
+
+@media(max-width:376px){
+  #pets{
+    flex-wrap: wrap;
+  }
+}
