@@ -21,6 +21,9 @@
 
 // initiateDownload();
 
-const timeoutId=setTimeout(()=>console.log("hi"),1000);
-clearTimeout(timeoutId)
-console.log("Timeot has been cleared");
+// const timeoutId=setTimeout(()=>console.log("hi"),1000);
+// clearTimeout(timeoutId)
+// console.log("Timeot has been cleared");
+// let id=setInterval(()=>{
+//     console.log("Hi,Samim");
+// }, 3000)
